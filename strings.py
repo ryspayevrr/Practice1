@@ -139,3 +139,24 @@ print(txt)
 
 txt = f"The price is {20 * 59} dollars"
 print(txt)
+
+
+# Escape characters
+
+# escape character allows to use double quotes when normally you would not be allowed:
+
+txt = "We are the so-called \"Vikings\" from the north."
+
+
+# Other escape characters
+"""
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value 
+"""
