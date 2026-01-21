@@ -32,3 +32,23 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+#printing methods
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z) # first
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z) # second
+
+x = 5
+y = 10
+print(x + y) # for integers
+
+x = 5
+y = "John"
+print(x, y) # output variables without errors
