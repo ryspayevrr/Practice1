@@ -67,3 +67,33 @@ print(b[2:])  # from 2 to the end
 
 b = "Hello, World!"
 print(b[-5:-2])     # -5 is "o" in "World!" and -2 ("d") is not included
+
+
+
+# Modifying strings
+
+# Upper and lower methods which return the string in upper/lower case:
+
+a = "Hello, World!"
+print(a.upper())
+
+a = "Hello, World!"
+print(a.lower())
+
+# strip() method which removes white spaces from the beginning or the end
+
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!
+
+
+
+# Replacing a string with another string
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+
+# Splitting a string by a separator
+
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
